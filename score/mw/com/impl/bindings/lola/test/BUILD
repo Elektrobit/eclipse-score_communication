@@ -128,7 +128,7 @@ cc_test(
     features = COMPILER_WARNING_FEATURES + [
         "aborts_upon_exception",
     ],
-    tags = ["unit", "exclusive"],
+    tags = ["unit"],
     visibility = [
         "//score/mw/com/impl/bindings/lola:__subpackages__",
     ],
@@ -151,7 +151,7 @@ cc_test(
     features = COMPILER_WARNING_FEATURES + [
         "aborts_upon_exception",
     ],
-    tags = ["unit", "exclusive"],
+    tags = ["unit"],
     visibility = [
         "//score/mw/com/impl/bindings/lola:__subpackages__",
     ],
