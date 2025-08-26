@@ -5,8 +5,8 @@ MANIFEST_LOCATION="/tmp/mw_com_lola_service_manifest.json"
 
 # this cannot work if both sender and receiver expect 20 samples
 # the sender has to send infinite samples and the receiver has to terminate after having received some
-CPP_EXAMPLE_CMD="score/mw/com/example/ipc_bridge/ipc_bridge_cpp -s $MANIFEST_LOCATION --cycle-time 1000"
-RUST_EXAMPLE_CMD="score/mw/com/example/ipc_bridge/ipc_bridge_rs -s $MANIFEST_LOCATION --cycle-time 1000"
+CPP_EXAMPLE_CMD="score/mw/com/example/ipc_bridge/ipc_bridge_cpp -s $MANIFEST_LOCATION --cycle-time 10"
+RUST_EXAMPLE_CMD="score/mw/com/example/ipc_bridge/ipc_bridge_rs -s $MANIFEST_LOCATION --cycle-time 10"
 
 function cleanup_lola() {
     # Ensure tests are run in a clean state
